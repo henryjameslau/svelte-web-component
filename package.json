@@ -35,5 +35,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@onsvisual/svelte-components": "^0.1.58"
+	}
 }
