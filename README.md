@@ -21,6 +21,8 @@ compilerOptions:{customElement:true}
 
 Then you need to package up the files to create a `dist` folder. Vite is then run on this `dist/index.js` to create some more files which can be added to a page.
 
+Compilation happens with the command `vite build && vite -c vite.webcomponents.config.js build`
+
 ## Did you really need to do this?
 There was a way of using the old svelte template and rollup to generate standalone .js files but this version uses vite. See [phptuts](https://phptuts.github.io/svelte-docs/webcomponents/) or [logrocket](https://blog.logrocket.com/build-web-components-svelte/#building-your-web-components) for a walkthrough.
 
