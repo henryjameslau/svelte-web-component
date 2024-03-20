@@ -1,6 +1,7 @@
 <script>
     import "$lib/Counter/Counter.svelte"
     import "$lib/Scrolly/Scrolly.svelte"
+    import "$lib/Protochart/Protochart.svelte"
 </script>
 
 
@@ -10,3 +11,4 @@
 
 <count-er></count-er>
 <scroll-y></scroll-y>
+<proto-chart dataurl="https://raw.githubusercontent.com/ONSvisual/Charts/main/bar-chart-horizontal/data.csv" configurl="https://raw.githubusercontent.com/ONSvisual/Charts/main/bar-chart-horizontal/config.js"></proto-chart>

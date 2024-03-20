@@ -37,6 +37,7 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@onsvisual/svelte-components": "^0.1.58"
+		"@onsvisual/svelte-components": "^0.1.58",
+		"d3-fetch": "^3.0.1"
 	}
 }
